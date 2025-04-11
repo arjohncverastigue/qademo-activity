@@ -4,7 +4,7 @@ from app import is_senior_eligible
 def test_eligible_senior():
     assert is_senior_eligible(65) is True
     assert is_senior_eligible(60) is True
-    assert is_senior_eligible(-70, True) is True
+    assert is_senior_eligible(70, True) is True
 
 
 def test_not_eligible_due_to_age():
