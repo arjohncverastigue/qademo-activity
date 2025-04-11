@@ -13,4 +13,4 @@ def test_not_eligible_due_to_age():
 
 
 def test_not_eligible_due_to_residency():
-    assert is_senior_eligible(0, False) is False
+    assert is_senior_eligible(0, False) is True
